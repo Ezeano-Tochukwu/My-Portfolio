@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', san-serif;
+	box-sizing: border-box;
+	background: #191919;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-right: 6%;
+	padding-left: 6%;
+
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	left-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a : hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.btn{
+	color: white;
+	background-color: #f9004d;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.btn: hover{
+	transform: scale(1.2); background-color:transparent;
+	border: 2px solid #f90049;
+}
+.home{
+	color: white;
+	cursor: pointer;
+}
+
+}
+.content{
+	color: white;
+}
+.button{
+	color: white;
+}
+.heading{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.info{
+	color: white;
+}
+.box-container{
+	display: grid;
+}
+/*h3{
+	color: white;
+}
+h4{
+	color: white;	
+}
+h5{
+	color: white
+}*/
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+}
+h2{
+	color: white;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+h3{
+	color: white;
+	font-size: 30px;
+}
+h4{
+	color: #fcfc;
+	font-size: 20px;
+	letter-spacing: px;
+}
+h5{
+	color: #fcfc;
+	font-size: 15px;
+	letter-spacing: px;
+}
